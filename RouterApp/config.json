@@ -1,0 +1,5 @@
+{
+  "RouterSettings": {
+    "MaxParallelExecutions": 50
+  }
+}
