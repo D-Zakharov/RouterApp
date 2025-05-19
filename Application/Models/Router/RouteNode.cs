@@ -11,6 +11,6 @@ namespace Application.Models.Router;
 internal class RouteNode
 {
     required public AbstractSegment Segment { get; set; }
-    public ConcurrentBag<RouteNode> ChildNodes { get; set; } = new();
+    public List<RouteNode> ChildNodes { get; set; } = new();
     public RouteAction? RouteAction { get; set; }
 }
